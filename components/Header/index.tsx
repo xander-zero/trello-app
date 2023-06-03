@@ -8,6 +8,11 @@ export function Header() {
   return (
     <header>
       <div className="flex flex-col md:flex-row items-center px-5 py-3 bg-gray-500/10 rounded-b-2xl">
+        <div
+          className="absolute top-0 left-0 w-full h-96 bg-gradient-to-br from-pink-400 to-[#0055D1] 
+          rounded-md filter blur-3xl opacity-50 -z-50
+        "
+        />
         <Image
           src="https://download.logo.wine/logo/Trello/Trello-Logo.wine.png"
           alt="Trello Logo"
@@ -29,7 +34,7 @@ export function Header() {
           <Avatar name="Mahmoud Ansari" round size="40" color="#0055D1" />
         </div>
       </div>
-      <div className="flex items-center justify-center px-5 md:py-5">
+      <div className="flex items-center justify-center py-2 px-5 md:py-5">
         <p className="flex items-center text-sm p-5 shadow-xl rounded-xl w-fit bg-white italic max-w-3xl text-[#0055D1]">
           <UserCircleIcon className="inline-block h-10 w-10 text-[#0055D1] mr-1" />
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
